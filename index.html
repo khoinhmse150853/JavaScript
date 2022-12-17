@@ -7,11 +7,13 @@
     <title>Document</title>
     <script type="text/javascript" src="example1.js"></script>
     <script type="text/javascript" src="example2.js"></script>
-</head>
+    <script type="text/javascript" src="example3.js"></script>
+  </head>
   <body>
     <h1>Find out yout age in dog years</h1>
     <h2 id="myConst"></h2>
     <h2 id="math"></h2>
+    <h2 id="person"></h2>
     <form method="post">
       <table>
         <tr>
@@ -23,7 +25,7 @@
             <input
               type="button"
               value="Calculate"
-              onclick="cyears(this.form); simpleMath()"
+              onclick="cyears(this.form); simpleMath(); viewPerson();"
             />
           </td>
         </tr>
