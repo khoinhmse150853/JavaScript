@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script type="text/javascript" src="example1.js"></script>
-  </head>
+    <script type="text/javascript" src="example2.js"></script>
+</head>
   <body>
     <h1>Find out yout age in dog years</h1>
+    <h2 id="myConst"></h2>
+    <h2 id="math"></h2>
     <form method="post">
       <table>
         <tr>
@@ -20,7 +23,7 @@
             <input
               type="button"
               value="Calculate"
-              onclick="cyears(this.form)"
+              onclick="cyears(this.form); simpleMath()"
             />
           </td>
         </tr>
